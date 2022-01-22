@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link href="1.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="1.js">
+        // function show() {
+        //     //var n, dob, email, gender, bgroup, mobile, branch, hobby, address, jdate;
+        //     var email = frm.eml.value;
+        //     document.write(email);
+        // }
+    //</script>
+</head>
+
+<body>
+    <center>
+        <form action="" method="post" name="frm">
+            <div>
+                <table>
+                    <th colspan="2">Registration</th>
+                    <tr>
+                        <th>Name:</th>
+                        <td><input type="text"  name="nm"></td>
+                    </tr>
+                    <tr>
+                        <th>DOB:</th>
+                        <td><input type="date" name="dt"></td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td><input type="email" required name="eml"></td>
+                    </tr>
+                    <tr>
+                        <th>Gender:</th>
+                        <td><input type="radio" name="rbtn" value="Male">Male
+                            <input type="radio" name="rbtn" value="Female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Blood Group:</th>
+                        <td><select name="bgrp">
+                                <option value="O+">O+</option>
+                                <option value="A+">A+</option>
+                                <option value="B+">B+</option>
+                                <option value="AB+">AB+</option>
+                                <option value="O-">O-</option>
+                                <option value="AB-">AB-</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>Mobile:</th>
+                        <td><input type="text" name="mnum"></td>
+                    </tr>
+                    <tr>
+                        <th>Branch:</th>
+                        <td><select name="brch">
+                                <option value="MCA">MCA</option>
+                                <option value="BE">BE</option>
+                                <option value="EC">EC</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>Hobby:</th>
+                        <td>
+                            <input type="checkbox"  name="ch1[]" value="Codeing">Codeing
+                            <input type="checkbox"  name="ch1[]" value="Playing">Playing
+                            <input type="checkbox"  name="ch1[]" value="Reading">Reading
+                            <input type="checkbox"  name="ch1[]" value="Singing">Singing
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Address:</th>
+                        <td><textarea name="add"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Joining Date:</th>
+                        <td><input type="date" name="jdt"></td>
+                    </tr>
+                    <th colspan="2">
+                        <input type="submit" class="btns" onClick="show()">
+                        <input type="reset" class="btnr">
+                    </th>
+                </table>
+            </div>
+        </form>
+        <p id="p1"></p>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+tr,th{
+    border: 2px solid #00b7eb;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color:#00b7eb;
+    align-content: center;
+}
+table{
+    color: white;
+    border: 2px solid #00b7eb;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    background-color: cyan
+}
+.btns{
+    background-color: green;
+    color: white;
+    border-color: green;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.btnr{
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btnr:hover{
+    font-size: 10px;
+}
+.btns:hover{
+    font-size: 10px;
+}
+div{
+    align-items: center;
+    margin-top: 10px;
+}
+input{
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+select{
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+textarea{
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
